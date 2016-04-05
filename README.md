@@ -2,5 +2,8 @@
 
 Given a nested comment link, it redirects you to the top level page without having to keep clicking "parent"
 
-<a href="javascript:(function(){var s=document.createElement('script');s.setAttribute('src','https://cdn.rawgit.com/benjiman/hntop/master/hntop.js');document.body.appendChild(s);})();">HN Top</a>
+Just create a bookmark to
+```
+javascript:(function(){var s=document.createElement('script');s.setAttribute('src','https://cdn.rawgit.com/benjiman/hntop/master/hntop.js');document.body.appendChild(s);})();
 
+```
